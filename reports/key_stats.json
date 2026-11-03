@@ -1,0 +1,970 @@
+{
+  "quality": {
+    "rows": 720,
+    "start": "2023-01-12",
+    "end": "2025-12-21",
+    "calendar_days": 1075,
+    "reported_days": 720,
+    "unreported_days": 355,
+    "coverage_pct": 67.0,
+    "weekday_counts": {
+      "Tuesday": 149,
+      "Thursday": 147,
+      "Wednesday": 147,
+      "Monday": 145,
+      "Sunday": 130,
+      "Friday": 2
+    },
+    "longest_gap_days": 10,
+    "raw_rows": 1170,
+    "blank_rows_dropped": 450
+  },
+  "reconciliation": {
+    "2023": {
+      "hhs_corr": 0.46,
+      "cbp_corr": 0.62,
+      "n": 179
+    },
+    "2024": {
+      "hhs_corr": 0.8,
+      "cbp_corr": 0.75,
+      "n": 197
+    },
+    "2025": {
+      "hhs_corr": 0.98,
+      "cbp_corr": 0.52,
+      "n": 183
+    }
+  },
+  "intake_vs_transfer_total": {
+    "intake": 67337,
+    "transfers": 92641,
+    "discharges": 124853
+  },
+  "quarterly_throughput": {
+    "2023Q1": {
+      "s1": 1.37,
+      "s2": 1.97,
+      "e2e": 2.69
+    },
+    "2023Q2": {
+      "s1": 1.31,
+      "s2": 1.59,
+      "e2e": 2.09
+    },
+    "2023Q3": {
+      "s1": 1.3,
+      "s2": 1.52,
+      "e2e": 1.98
+    },
+    "2023Q4": {
+      "s1": 1.39,
+      "s2": 2.45,
+      "e2e": 3.41
+    },
+    "2024Q1": {
+      "s1": 1.44,
+      "s2": 1.21,
+      "e2e": 1.75
+    },
+    "2024Q2": {
+      "s1": 1.48,
+      "s2": 0.9,
+      "e2e": 1.33
+    },
+    "2024Q3": {
+      "s1": 1.4,
+      "s2": 0.95,
+      "e2e": 1.33
+    },
+    "2024Q4": {
+      "s1": 1.32,
+      "s2": 0.84,
+      "e2e": 1.11
+    },
+    "2025Q1": {
+      "s1": 1.27,
+      "s2": 2.1,
+      "e2e": 2.68
+    },
+    "2025Q2": {
+      "s1": 1.17,
+      "s2": 1.11,
+      "e2e": 1.3
+    },
+    "2025Q3": {
+      "s1": 1.3,
+      "s2": 1.79,
+      "e2e": 2.33
+    },
+    "2025Q4": {
+      "s1": 1.38,
+      "s2": 0.96,
+      "e2e": 1.32
+    }
+  },
+  "weekday": {
+    "table": {
+      "Monday": {
+        "n": 145,
+        "transfers": 123.7,
+        "discharges": 157.6,
+        "ter": 0.661,
+        "dei": 0.0217
+      },
+      "Tuesday": {
+        "n": 149,
+        "transfers": 124.9,
+        "discharges": 136.1,
+        "ter": 0.67,
+        "dei": 0.0187
+      },
+      "Wednesday": {
+        "n": 147,
+        "transfers": 131.7,
+        "discharges": 166.0,
+        "ter": 0.692,
+        "dei": 0.0226
+      },
+      "Thursday": {
+        "n": 147,
+        "transfers": 133.4,
+        "discharges": 205.7,
+        "ter": 0.733,
+        "dei": 0.0279
+      },
+      "Sunday": {
+        "n": 130,
+        "transfers": 130.1,
+        "discharges": 206.1,
+        "ter": 0.7,
+        "dei": 0.0284
+      }
+    },
+    "kruskal_discharges_p": 1.7385209731226626e-06,
+    "sunday_vs_weekday_discharges": {
+      "sunday": 206.1,
+      "weekday": 166.3,
+      "mannwhitney_p": 0.005588277935070069
+    },
+    "sunday_vs_weekday_transfers": {
+      "sunday": 130.1,
+      "weekday": 128.4,
+      "mannwhitney_p": 0.9346374985094664
+    }
+  },
+  "sudden_drops": [
+    {
+      "date": "2024-04-09",
+      "prev": 272.4,
+      "now": 185.7,
+      "chg": -31.8
+    },
+    {
+      "date": "2025-01-28",
+      "prev": 174.0,
+      "now": 121.1,
+      "chg": -30.4
+    },
+    {
+      "date": "2025-02-11",
+      "prev": 144.3,
+      "now": 91.0,
+      "chg": -36.9
+    },
+    {
+      "date": "2025-03-16",
+      "prev": 29.9,
+      "now": 17.9,
+      "chg": -40.2
+    },
+    {
+      "date": "2025-07-22",
+      "prev": 25.6,
+      "now": 16.1,
+      "chg": -36.9
+    },
+    {
+      "date": "2025-09-09",
+      "prev": 14.0,
+      "now": 9.3,
+      "chg": -33.7
+    },
+    {
+      "date": "2025-10-21",
+      "prev": 13.6,
+      "now": 8.7,
+      "chg": -35.8
+    },
+    {
+      "date": "2025-11-18",
+      "prev": 11.7,
+      "now": 7.9,
+      "chg": -32.9
+    }
+  ],
+  "stagnation": [
+    {
+      "start": "2025-04-21",
+      "end": "2025-05-15",
+      "days": 19,
+      "hhs": 2337,
+      "dis": 10.9,
+      "dei_pct": 0.47
+    },
+    {
+      "start": "2025-06-05",
+      "end": "2025-07-01",
+      "days": 14,
+      "hhs": 2477,
+      "dis": 17.4,
+      "dei_pct": 0.71
+    },
+    {
+      "start": "2025-08-13",
+      "end": "2025-09-11",
+      "days": 21,
+      "hhs": 2001,
+      "dis": 11.6,
+      "dei_pct": 0.58
+    },
+    {
+      "start": "2025-10-02",
+      "end": "2025-11-25",
+      "days": 37,
+      "hhs": 2272,
+      "dis": 10.3,
+      "dei_pct": 0.45
+    }
+  ],
+  "imbalance": [
+    {
+      "start": "2024-12-01",
+      "end": "2024-12-15",
+      "days": 11,
+      "excess": 213,
+      "peak_cbp": 353
+    },
+    {
+      "start": "2025-03-23",
+      "end": "2025-04-16",
+      "days": 20,
+      "excess": 59,
+      "peak_cbp": 36
+    }
+  ],
+  "kpi_by_year": {
+    "2023": {
+      "transfer_eff": 0.7835,
+      "discharge_eff": 0.0333,
+      "throughput": 2.4484,
+      "backlog_rate": -0.0193,
+      "stability": 77.3544,
+      "total_intake": 27056,
+      "total_transfers": 36124,
+      "total_discharges": 66244,
+      "avg_cbp_load": 200.4696,
+      "avg_hhs_load": 8646.0739,
+      "implied_hhs_days": 30.0193,
+      "implied_cbp_days": 1.2764
+    },
+    "2024": {
+      "transfer_eff": 0.7561,
+      "discharge_eff": 0.0292,
+      "throughput": 1.3908,
+      "backlog_rate": -0.0079,
+      "stability": 77.1801,
+      "total_intake": 37166,
+      "total_transfers": 52552,
+      "total_discharges": 51689,
+      "avg_cbp_load": 276.9044,
+      "avg_hhs_load": 7042.9602,
+      "implied_hhs_days": 34.2004,
+      "implied_cbp_days": 1.3226
+    },
+    "2025": {
+      "transfer_eff": 0.5041,
+      "discharge_eff": 0.0114,
+      "throughput": 2.2215,
+      "backlog_rate": -0.0062,
+      "stability": 53.8255,
+      "total_intake": 3115,
+      "total_transfers": 3965,
+      "total_discharges": 6920,
+      "avg_cbp_load": 32.9079,
+      "avg_hhs_load": 2542.8368,
+      "implied_hhs_days": 87.8234,
+      "implied_cbp_days": 1.9836
+    }
+  },
+  "kpi_overall": {
+    "transfer_eff": 0.7503,
+    "discharge_eff": 0.0286,
+    "throughput": 1.8542,
+    "backlog_rate": -0.0128,
+    "stability": 69.3386,
+    "total_intake": 67337,
+    "total_transfers": 92641,
+    "total_discharges": 124853,
+    "avg_cbp_load": 171.4944,
+    "avg_hhs_load": 6061.275,
+    "implied_hhs_days": 34.954,
+    "implied_cbp_days": 1.3328
+  },
+  "kpi_by_quarter": {
+    "2023Q1": {
+      "transfer_eff": 0.764,
+      "discharge_eff": 0.035,
+      "throughput": 2.692,
+      "stability": 74.67,
+      "implied_hhs_days": 28.842,
+      "implied_cbp_days": 1.309
+    },
+    "2023Q2": {
+      "transfer_eff": 0.773,
+      "discharge_eff": 0.034,
+      "throughput": 2.086,
+      "stability": 79.695,
+      "implied_hhs_days": 29.307,
+      "implied_cbp_days": 1.293
+    },
+    "2023Q3": {
+      "transfer_eff": 0.743,
+      "discharge_eff": 0.033,
+      "throughput": 1.979,
+      "stability": 73.633,
+      "implied_hhs_days": 30.63,
+      "implied_cbp_days": 1.347
+    },
+    "2023Q4": {
+      "transfer_eff": 0.881,
+      "discharge_eff": 0.033,
+      "throughput": 3.414,
+      "stability": 80.049,
+      "implied_hhs_days": 30.769,
+      "implied_cbp_days": 1.135
+    },
+    "2024Q1": {
+      "transfer_eff": 0.744,
+      "discharge_eff": 0.032,
+      "throughput": 1.746,
+      "stability": 77.011,
+      "implied_hhs_days": 30.794,
+      "implied_cbp_days": 1.343
+    },
+    "2024Q2": {
+      "transfer_eff": 0.762,
+      "discharge_eff": 0.029,
+      "throughput": 1.333,
+      "stability": 75.203,
+      "implied_hhs_days": 34.068,
+      "implied_cbp_days": 1.313
+    },
+    "2024Q3": {
+      "transfer_eff": 0.77,
+      "discharge_eff": 0.028,
+      "throughput": 1.333,
+      "stability": 77.281,
+      "implied_hhs_days": 35.895,
+      "implied_cbp_days": 1.299
+    },
+    "2024Q4": {
+      "transfer_eff": 0.75,
+      "discharge_eff": 0.026,
+      "throughput": 1.11,
+      "stability": 79.292,
+      "implied_hhs_days": 38.58,
+      "implied_cbp_days": 1.333
+    },
+    "2025Q1": {
+      "transfer_eff": 0.798,
+      "discharge_eff": 0.023,
+      "throughput": 2.678,
+      "stability": 52.297,
+      "implied_hhs_days": 43.816,
+      "implied_cbp_days": 1.254
+    },
+    "2025Q2": {
+      "transfer_eff": 0.417,
+      "discharge_eff": 0.005,
+      "throughput": 1.302,
+      "stability": 47.505,
+      "implied_hhs_days": 200.258,
+      "implied_cbp_days": 2.398
+    },
+    "2025Q3": {
+      "transfer_eff": 0.311,
+      "discharge_eff": 0.007,
+      "throughput": 2.328,
+      "stability": 55.94,
+      "implied_hhs_days": 148.552,
+      "implied_cbp_days": 3.218
+    },
+    "2025Q4": {
+      "transfer_eff": 0.296,
+      "discharge_eff": 0.004,
+      "throughput": 1.32,
+      "stability": 59.82,
+      "implied_hhs_days": 234.354,
+      "implied_cbp_days": 3.383
+    }
+  },
+  "monthly": {
+    "2023-01": {
+      "intake": 247.0,
+      "transfers": 276.0,
+      "discharges": 1856.0,
+      "avg_cbp_load": 43.875,
+      "avg_hhs_load": 7369.625,
+      "reported_days": 8,
+      "transfer_eff": 0.7863,
+      "discharge_eff": 0.0315,
+      "throughput": 7.5142,
+      "avg_daily_discharges": 232.0,
+      "discharge_mom_pct": null,
+      "stability": 59.4317
+    },
+    "2023-02": {
+      "intake": 1886.0,
+      "transfers": 2637.0,
+      "discharges": 5183.0,
+      "avg_cbp_load": 171.3158,
+      "avg_hhs_load": 7795.7895,
+      "reported_days": 19,
+      "transfer_eff": 0.8101,
+      "discharge_eff": 0.035,
+      "throughput": 2.7481,
+      "avg_daily_discharges": 272.7895,
+      "discharge_mom_pct": 17.5817,
+      "stability": 77.0331
+    },
+    "2023-03": {
+      "intake": 2479.0,
+      "transfers": 3399.0,
+      "discharges": 5375.0,
+      "avg_cbp_load": 245.1053,
+      "avg_hhs_load": 7945.3684,
+      "reported_days": 19,
+      "transfer_eff": 0.7299,
+      "discharge_eff": 0.0356,
+      "throughput": 2.1682,
+      "avg_daily_discharges": 282.8947,
+      "discharge_mom_pct": 3.7044,
+      "stability": 82.4989
+    },
+    "2023-04": {
+      "intake": 3129.0,
+      "transfers": 3967.0,
+      "discharges": 5668.0,
+      "avg_cbp_load": 250.1905,
+      "avg_hhs_load": 7842.6667,
+      "reported_days": 21,
+      "transfer_eff": 0.755,
+      "discharge_eff": 0.0344,
+      "throughput": 1.8114,
+      "avg_daily_discharges": 269.9048,
+      "discharge_mom_pct": -4.5918,
+      "stability": 83.7418
+    },
+    "2023-05": {
+      "intake": 2746.0,
+      "transfers": 3622.0,
+      "discharges": 6256.0,
+      "avg_cbp_load": 216.9545,
+      "avg_hhs_load": 8187.1364,
+      "reported_days": 22,
+      "transfer_eff": 0.7589,
+      "discharge_eff": 0.0347,
+      "throughput": 2.2782,
+      "avg_daily_discharges": 284.3636,
+      "discharge_mom_pct": 5.357,
+      "stability": 78.1949
+    },
+    "2023-06": {
+      "intake": 1774.0,
+      "transfers": 2416.0,
+      "discharges": 4029.0,
+      "avg_cbp_load": 145.65,
+      "avg_hhs_load": 6136.45,
+      "reported_days": 20,
+      "transfer_eff": 0.8294,
+      "discharge_eff": 0.0328,
+      "throughput": 2.2711,
+      "avg_daily_discharges": 201.45,
+      "discharge_mom_pct": -29.1576,
+      "stability": 74.9415
+    },
+    "2023-07": {
+      "intake": 2858.0,
+      "transfers": 3897.0,
+      "discharges": 4407.0,
+      "avg_cbp_load": 245.2857,
+      "avg_hhs_load": 6828.0952,
+      "reported_days": 21,
+      "transfer_eff": 0.7566,
+      "discharge_eff": 0.0307,
+      "throughput": 1.542,
+      "avg_daily_discharges": 209.8571,
+      "discharge_mom_pct": 4.1733,
+      "stability": 74.598
+    },
+    "2023-08": {
+      "intake": 2751.0,
+      "transfers": 3587.0,
+      "discharges": 6470.0,
+      "avg_cbp_load": 237.2,
+      "avg_hhs_load": 9347.9,
+      "reported_days": 20,
+      "transfer_eff": 0.7561,
+      "discharge_eff": 0.0346,
+      "throughput": 2.3519,
+      "avg_daily_discharges": 323.5,
+      "discharge_mom_pct": 54.1525,
+      "stability": 70.9344
+    },
+    "2023-09": {
+      "intake": 3194.0,
+      "transfers": 3971.0,
+      "discharges": 6546.0,
+      "avg_cbp_load": 291.0526,
+      "avg_hhs_load": 10701.3158,
+      "reported_days": 19,
+      "transfer_eff": 0.7181,
+      "discharge_eff": 0.0322,
+      "throughput": 2.0495,
+      "avg_daily_discharges": 344.5263,
+      "discharge_mom_pct": 6.4996,
+      "stability": 81.8344
+    },
+    "2023-10": {
+      "intake": 1486.0,
+      "transfers": 2049.0,
+      "discharges": 7658.0,
+      "avg_cbp_load": 102.9091,
+      "avg_hhs_load": 10205.3182,
+      "reported_days": 22,
+      "transfer_eff": 0.905,
+      "discharge_eff": 0.0341,
+      "throughput": 5.1534,
+      "avg_daily_discharges": 348.0909,
+      "discharge_mom_pct": 1.0346,
+      "stability": 79.8991
+    },
+    "2023-11": {
+      "intake": 2299.0,
+      "transfers": 3198.0,
+      "discharges": 5992.0,
+      "avg_cbp_load": 183.5,
+      "avg_hhs_load": 9726.1,
+      "reported_days": 20,
+      "transfer_eff": 0.8714,
+      "discharge_eff": 0.0308,
+      "throughput": 2.6064,
+      "avg_daily_discharges": 299.6,
+      "discharge_mom_pct": -13.9305,
+      "stability": 81.9804
+    },
+    "2023-12": {
+      "intake": 2207.0,
+      "transfers": 3105.0,
+      "discharges": 6804.0,
+      "avg_cbp_load": 186.6316,
+      "avg_hhs_load": 11068.6316,
+      "reported_days": 19,
+      "transfer_eff": 0.8756,
+      "discharge_eff": 0.0324,
+      "throughput": 3.0829,
+      "avg_daily_discharges": 358.1053,
+      "discharge_mom_pct": 19.5278,
+      "stability": 79.9782
+    },
+    "2024-01": {
+      "intake": 2097.0,
+      "transfers": 2850.0,
+      "discharges": 6496.0,
+      "avg_cbp_load": 170.5909,
+      "avg_hhs_load": 8851.0455,
+      "reported_days": 22,
+      "transfer_eff": 0.7594,
+      "discharge_eff": 0.0334,
+      "throughput": 3.0978,
+      "avg_daily_discharges": 295.2727,
+      "discharge_mom_pct": -17.5458,
+      "stability": 74.4156
+    },
+    "2024-02": {
+      "intake": 4517.0,
+      "transfers": 6332.0,
+      "discharges": 5273.0,
+      "avg_cbp_load": 441.6,
+      "avg_hhs_load": 8325.2,
+      "reported_days": 20,
+      "transfer_eff": 0.7169,
+      "discharge_eff": 0.0317,
+      "throughput": 1.1674,
+      "avg_daily_discharges": 263.65,
+      "discharge_mom_pct": -10.7097,
+      "stability": 77.3028
+    },
+    "2024-03": {
+      "intake": 3377.0,
+      "transfers": 5209.0,
+      "discharges": 5678.0,
+      "avg_cbp_load": 321.1905,
+      "avg_hhs_load": 8382.6667,
+      "reported_days": 21,
+      "transfer_eff": 0.7723,
+      "discharge_eff": 0.0323,
+      "throughput": 1.6814,
+      "avg_daily_discharges": 270.381,
+      "discharge_mom_pct": 2.553,
+      "stability": 77.7243
+    },
+    "2024-04": {
+      "intake": 3424.0,
+      "transfers": 5178.0,
+      "discharges": 4474.0,
+      "avg_cbp_load": 309.1818,
+      "avg_hhs_load": 7027.1364,
+      "reported_days": 22,
+      "transfer_eff": 0.7612,
+      "discharge_eff": 0.0289,
+      "throughput": 1.3067,
+      "avg_daily_discharges": 203.3636,
+      "discharge_mom_pct": -24.7863,
+      "stability": 74.7028
+    },
+    "2024-05": {
+      "intake": 3493.0,
+      "transfers": 5194.0,
+      "discharges": 4336.0,
+      "avg_cbp_load": 345.7619,
+      "avg_hhs_load": 7490.2857,
+      "reported_days": 21,
+      "transfer_eff": 0.7153,
+      "discharge_eff": 0.0276,
+      "throughput": 1.2413,
+      "avg_daily_discharges": 206.4762,
+      "discharge_mom_pct": 1.5305,
+      "stability": 75.779
+    },
+    "2024-06": {
+      "intake": 3376.0,
+      "transfers": 4882.0,
+      "discharges": 4911.0,
+      "avg_cbp_load": 283.9524,
+      "avg_hhs_load": 7407.5238,
+      "reported_days": 21,
+      "transfer_eff": 0.8187,
+      "discharge_eff": 0.0316,
+      "throughput": 1.4547,
+      "avg_daily_discharges": 233.8571,
+      "discharge_mom_pct": 13.2611,
+      "stability": 81.5461
+    },
+    "2024-07": {
+      "intake": 2563.0,
+      "transfers": 3679.0,
+      "discharges": 3899.0,
+      "avg_cbp_load": 212.4286,
+      "avg_hhs_load": 6286.3333,
+      "reported_days": 21,
+      "transfer_eff": 0.8247,
+      "discharge_eff": 0.0295,
+      "throughput": 1.5213,
+      "avg_daily_discharges": 185.6667,
+      "discharge_mom_pct": -20.6068,
+      "stability": 77.8863
+    },
+    "2024-08": {
+      "intake": 2656.0,
+      "transfers": 3546.0,
+      "discharges": 3073.0,
+      "avg_cbp_load": 254.4737,
+      "avg_hhs_load": 6004.2632,
+      "reported_days": 19,
+      "transfer_eff": 0.7334,
+      "discharge_eff": 0.0269,
+      "throughput": 1.157,
+      "avg_daily_discharges": 161.7368,
+      "discharge_mom_pct": -12.8886,
+      "stability": 78.5038
+    },
+    "2024-09": {
+      "intake": 2783.0,
+      "transfers": 3987.0,
+      "discharges": 3692.0,
+      "avg_cbp_load": 239.2273,
+      "avg_hhs_load": 6213.4091,
+      "reported_days": 22,
+      "transfer_eff": 0.7576,
+      "discharge_eff": 0.027,
+      "throughput": 1.3266,
+      "avg_daily_discharges": 167.8182,
+      "discharge_mom_pct": 3.76,
+      "stability": 75.977
+    },
+    "2024-10": {
+      "intake": 2736.0,
+      "transfers": 3886.0,
+      "discharges": 3194.0,
+      "avg_cbp_load": 243.4286,
+      "avg_hhs_load": 6032.8571,
+      "reported_days": 21,
+      "transfer_eff": 0.7602,
+      "discharge_eff": 0.0252,
+      "throughput": 1.1674,
+      "avg_daily_discharges": 152.0952,
+      "discharge_mom_pct": -9.369,
+      "stability": 80.036
+    },
+    "2024-11": {
+      "intake": 2664.0,
+      "transfers": 3414.0,
+      "discharges": 3001.0,
+      "avg_cbp_load": 236.7368,
+      "avg_hhs_load": 5914.6842,
+      "reported_days": 19,
+      "transfer_eff": 0.759,
+      "discharge_eff": 0.0267,
+      "throughput": 1.1265,
+      "avg_daily_discharges": 157.9474,
+      "discharge_mom_pct": 3.8477,
+      "stability": 80.4853
+    },
+    "2024-12": {
+      "intake": 3480.0,
+      "transfers": 4395.0,
+      "discharges": 3662.0,
+      "avg_cbp_load": 271.7273,
+      "avg_hhs_load": 6418.6818,
+      "reported_days": 22,
+      "transfer_eff": 0.7352,
+      "discharge_eff": 0.0259,
+      "throughput": 1.0523,
+      "avg_daily_discharges": 166.4545,
+      "discharge_mom_pct": 5.3861,
+      "stability": 72.9763
+    },
+    "2025-01": {
+      "intake": 1311.0,
+      "transfers": 1750.0,
+      "discharges": 3330.0,
+      "avg_cbp_load": 88.9545,
+      "avg_hhs_load": 4991.0909,
+      "reported_days": 22,
+      "transfer_eff": 0.8942,
+      "discharge_eff": 0.0303,
+      "throughput": 2.54,
+      "avg_daily_discharges": 151.3636,
+      "discharge_mom_pct": -9.0661,
+      "stability": 72.811
+    },
+    "2025-02": {
+      "intake": 312.0,
+      "transfers": 341.0,
+      "discharges": 1160.0,
+      "avg_cbp_load": 22.6842,
+      "avg_hhs_load": 2781.5263,
+      "reported_days": 19,
+      "transfer_eff": 0.7912,
+      "discharge_eff": 0.0219,
+      "throughput": 3.7179,
+      "avg_daily_discharges": 61.0526,
+      "discharge_mom_pct": -59.6649,
+      "stability": 25.8868
+    },
+    "2025-03": {
+      "intake": 169.0,
+      "transfers": 190.0,
+      "discharges": 309.0,
+      "avg_cbp_load": 21.4545,
+      "avg_hhs_load": 2164.4545,
+      "reported_days": 22,
+      "transfer_eff": 0.4025,
+      "discharge_eff": 0.0065,
+      "throughput": 1.8284,
+      "avg_daily_discharges": 14.0455,
+      "discharge_mom_pct": -76.9945,
+      "stability": 12.4842
+    },
+    "2025-04": {
+      "intake": 189.0,
+      "transfers": 230.0,
+      "discharges": 203.0,
+      "avg_cbp_load": 24.8696,
+      "avg_hhs_load": 2273.1304,
+      "reported_days": 23,
+      "transfer_eff": 0.4021,
+      "discharge_eff": 0.0039,
+      "throughput": 1.0741,
+      "avg_daily_discharges": 8.8261,
+      "discharge_mom_pct": -37.1605,
+      "stability": 54.0847
+    },
+    "2025-05": {
+      "intake": 217.0,
+      "transfers": 252.0,
+      "discharges": 205.0,
+      "avg_cbp_load": 32.8333,
+      "avg_hhs_load": 2406.9444,
+      "reported_days": 18,
+      "transfer_eff": 0.4264,
+      "discharge_eff": 0.0047,
+      "throughput": 0.9447,
+      "avg_daily_discharges": 11.3889,
+      "discharge_mom_pct": 29.0367,
+      "stability": 62.3674
+    },
+    "2025-06": {
+      "intake": 123.0,
+      "transfers": 138.0,
+      "discharges": 281.0,
+      "avg_cbp_load": 19.0588,
+      "avg_hhs_load": 2492.4118,
+      "reported_days": 17,
+      "transfer_eff": 0.4259,
+      "discharge_eff": 0.0066,
+      "throughput": 2.2846,
+      "avg_daily_discharges": 16.5294,
+      "discharge_mom_pct": 45.1363,
+      "stability": 61.6708
+    },
+    "2025-07": {
+      "intake": 70.0,
+      "transfers": 88.0,
+      "discharges": 396.0,
+      "avg_cbp_load": 13.9524,
+      "avg_hhs_load": 2187.1905,
+      "reported_days": 21,
+      "transfer_eff": 0.3003,
+      "discharge_eff": 0.0086,
+      "throughput": 5.6571,
+      "avg_daily_discharges": 18.8571,
+      "discharge_mom_pct": 14.0824,
+      "stability": 50.6708
+    },
+    "2025-08": {
+      "intake": 107.0,
+      "transfers": 147.0,
+      "discharges": 254.0,
+      "avg_cbp_load": 25.6,
+      "avg_hhs_load": 2001.3,
+      "reported_days": 20,
+      "transfer_eff": 0.2871,
+      "discharge_eff": 0.0063,
+      "throughput": 2.3738,
+      "avg_daily_discharges": 12.7,
+      "discharge_mom_pct": -32.6515,
+      "stability": 62.6197
+    },
+    "2025-09": {
+      "intake": 204.0,
+      "transfers": 260.0,
+      "discharges": 237.0,
+      "avg_cbp_load": 35.8182,
+      "avg_hhs_load": 2082.2273,
+      "reported_days": 22,
+      "transfer_eff": 0.3299,
+      "discharge_eff": 0.0052,
+      "throughput": 1.1618,
+      "avg_daily_discharges": 10.7727,
+      "discharge_mom_pct": -15.1754,
+      "stability": 60.2093
+    },
+    "2025-10": {
+      "intake": 168.0,
+      "transfers": 263.0,
+      "discharges": 242.0,
+      "avg_cbp_load": 34.3333,
+      "avg_hhs_load": 2231.0476,
+      "reported_days": 21,
+      "transfer_eff": 0.3648,
+      "discharge_eff": 0.0052,
+      "throughput": 1.4405,
+      "avg_daily_discharges": 11.5238,
+      "discharge_mom_pct": 6.9721,
+      "stability": 66.6593
+    },
+    "2025-11": {
+      "intake": 129.0,
+      "transfers": 182.0,
+      "discharges": 159.0,
+      "avg_cbp_load": 34.7895,
+      "avg_hhs_load": 2325.8947,
+      "reported_days": 19,
+      "transfer_eff": 0.2753,
+      "discharge_eff": 0.0036,
+      "throughput": 1.2326,
+      "avg_daily_discharges": 8.3684,
+      "discharge_mom_pct": -27.3815,
+      "stability": 45.3542
+    },
+    "2025-12": {
+      "intake": 116.0,
+      "transfers": 124.0,
+      "discharges": 144.0,
+      "avg_cbp_load": 36.2,
+      "avg_hhs_load": 2445.2667,
+      "reported_days": 15,
+      "transfer_eff": 0.2284,
+      "discharge_eff": 0.0039,
+      "throughput": 1.2414,
+      "avg_daily_discharges": 9.6,
+      "discharge_mom_pct": 14.717,
+      "stability": 68.0631
+    }
+  },
+  "regime": {
+    "pre_n": 503,
+    "post_n": 176,
+    "pre_discharges_per_day": 241.1,
+    "post_discharges_per_day": 12.1,
+    "pre_dei": 0.031,
+    "post_dei": 0.0054,
+    "pre_ter": 0.81,
+    "post_ter": 0.359,
+    "ter_mannwhitney_p": 1.9697988551887712e-69,
+    "dei_mannwhitney_p": 7.027269565218254e-87
+  },
+  "peak": {
+    "hhs_max": 11516,
+    "hhs_max_date": "2023-12-20",
+    "cbp_max": 531,
+    "cbp_max_date": "2024-02-04",
+    "hhs_min": 1972,
+    "hhs_min_date": "2025-08-21"
+  },
+  "forecast": {
+    "naive_last": {
+      "folds": [
+        0.176,
+        0.159,
+        0.19,
+        0.329,
+        0.421
+      ],
+      "mean_wape": 0.255
+    },
+    "naive_mean7": {
+      "folds": [
+        0.185,
+        0.187,
+        0.194,
+        0.417,
+        0.36
+      ],
+      "mean_wape": 0.269
+    },
+    "gbm": {
+      "folds": [
+        0.179,
+        0.18,
+        0.172,
+        3.194,
+        0.401
+      ],
+      "mean_wape": 0.825
+    }
+  }
+}
